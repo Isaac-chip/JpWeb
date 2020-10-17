@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* ===================================================================
+CSS information
+
+ file name  :  footer.css
+ style info :  スタイル指定
+=================================================================== */
+footer { background: #151515;}
+footer .firstFooter {
+	background: #333;
+	padding: 60px 0;
+}
+footer p { color: #fff;}
+footer .siteName {
+	font-size: 13px;
+}
+footer .siteName + p {
+	font-size: 10px;
+	color: rgba(200,200,200,1);
+}
+footer .siteName + p + address {
+	font-size: 10px;
+	font-style: normal;
+	color: rgba(200,200,200,1);
+	margin: 20px auto 30px;
+}
+footer a.linkBtn {
+	font-size: 12px;
+	border-color: rgba(200,200,200,1);
+}
+footer a.linkBtn:hover {
+	border-color: #a9894a;
+}
+footer .firstFooter .contentsLink a {
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 25px;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+footer .firstFooter .contentsLink dd {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	padding-right: 1em;
+}
+footer .firstFooter .contentsLink.corporatePage dd {
+	width: 50%;
+}
+footer .firstFooter .contentsLink dd a {
+	font-size: 12px;
+	color: rgba(200,200,200,1);
+	margin-bottom: 15px;
+}
+footer .firstFooter .contentsLink a:hover {
+	color: #a9894a;
+}
+footer .firstFooter .contentsLink a.outlink span:before {
+	background-color: rgba(200,200,200,1);
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+footer .firstFooter .contentsLink a.outlink span:after {
+	border-color: rgba(200,200,200,1);
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+footer .firstFooter .contentsLink a.outlink:hover span:before {
+	background-color: #a9894a;
+}
+footer .firstFooter .contentsLink a.outlink:hover span:after {
+	border-color: #a9894a;
+}
+
+footer .secondFooter {
+	padding: 60px 0;
+}
+footer .secondFooter a {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 1.4;
+	color: rgba(200,200,200,1);
+	margin-bottom: 20px;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+footer .secondFooter a:hover {
+	color: #a9894a;
+}
+footer .secondFooter small {
+	font-size: 10px;
+	color: rgba(200,200,200,1);
+}
+footer i.icon-outlink {
+	top: -5px;
+	margin-right: 5px;
+}
+footer i.icon-outlink::before {
+	background: #c8c8c8;
+}
+footer i.icon-outlink::after {
+	border-color: #c8c8c8;
+}
+footer .secondFooter a:hover i.icon-outlink::before { background: #a9894a; }
+footer .secondFooter a:hover i.icon-outlink::after { border-color: #a9894a;}
+
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 991px) {
+.ffLink { margin-bottom: 30px;}
+}
+@media only screen and (max-width: 768px) {
+footer .firstFooter .contentsLink a {
+	font-size: 13px;
+}
+footer .firstFooter .contentsLink.corporatePage dd {
+	width: 100%;
+}
+}
+@media only screen and (max-width: 767px) {
+footer .firstFooter .contentsLink dd {
+	width: 50% !important;
+}
+}
+@media only screen and (max-width: 679px) {
+}
+@media only screen and (max-width: 479px) {
+}
+@media only screen and (max-width: 320px) {
+}
