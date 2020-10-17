@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* ===================================================================
+CSS information
+
+ file name  :  default.css
+ style info :  基本スタイル指定
+=================================================================== */
+video::-internal-media-controls-download-button {
+	display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+        overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+        width: calc(100% + 30px);
+}
+/**********
+//html body and base setting
+**********/
+html {
+    overflow-y: scroll;
+    font-size:62.5%;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+}
+body {
+    position:relative;
+    overflow: hidden;
+    font-family: "Lato", "Noto Sans Japanese", "游ゴシック", "Yu Gothic", YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, sans-serif;
+    font-size: 14px;
+	background: #f2f2f2;
+    color:#333;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    width:100%;
+    height:100%;
+    margin:auto;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+html.is_page_loaded body,
+body#businessPage.contentsLowerPage,
+body#globalPage,
+body#contactPage,
+body#personalPage {
+    height: auto;
+} 
+html.is_scroll body.contentsLowerPage {
+	background-color: #fff;
+}
+
+.serifJP { font-family: "Times New Roman", Times, "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝B", "HG明朝E", serif;}
+.serifEN { font-family: "Times New Roman", Times, serif;}
+
+/**********
+//Fluid Image
+**********/
+img {
+    max-width:100%;
+    width:auto;
+    height:auto;
+    vertical-align:top;
+}
+img.fullImg {
+    width:100%;
+    width/***/: 100%\9;
+    max-width: 100%;
+    height:auto;
+}
+
+/**********
+//selection
+**********/
+*::selection {
+    color:#fff;
+    background: #aaa;
+}
+*::-moz-selection {
+    color:#fff;
+    background: #aaa;
+}
+
+/**********
+//googlemap画像調整
+**********/
+.gm-style img {
+    max-width:none !important;
+}
+
+/**********
+//IE11スクロールバー調整
+**********/
+@-ms-viewport
+{
+    width: auto;
+    initial-scale: 1;
+}
+
+/**********
+//印刷用
+**********/
+@media print {
+.noPrint {
+    display:none !important;
+}
+}
+
+@media only screen and (max-width: 991px) {
+}
+@media only screen and (max-width: 768px) {
+body { font-size: 14px;}
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 679px) {
+p { letter-spacing:0; }
+}
+@media only screen and (max-width: 479px) {
+}
+@media only screen and (max-width: 320px) {
+}

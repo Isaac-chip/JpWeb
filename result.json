@@ -1,0 +1,55 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为请求参数，包括不限于网址、请求头、响应头、COOKIE、Referer、UserAgent",
+        " *   本文件仅为记录详细请求参数便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "directory": "www-nomura-re-co-jp-1323j34a",
+    "options": {
+        "url": "https://www.nomura-re.co.jp/",
+        "index": "index.html",
+        "domain": "www.nomura-re.co.jp",
+        "ipaddress": "210.129.51.153",
+        "filenameGenerator": "byType",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "date": "Sat, 17 Oct 2020 14:45:44 GMT",
+                "server": "Apache",
+                "last-modified": "Tue, 13 Oct 2020 08:32:25 GMT",
+                "etag": "\"691d-5b1894122f840-gzip\"",
+                "accept-ranges": "bytes",
+                "vary": "Accept-Encoding",
+                "content-encoding": "gzip",
+                "cache-control": "max-age=30",
+                "expires": "Sat, 17 Oct 2020 14:46:14 GMT",
+                "content-length": "5780",
+                "connection": "close",
+                "content-type": "text/html"
+            }
+        }
+    },
+    "user": {
+        "isWhite": false
+    },
+    "formatter": [
+        "saveOriginal"
+    ],
+    "time": {
+        "start": 1602945944114,
+        "end": 1602945946881,
+        "spend": "2.767s"
+    }
+}
